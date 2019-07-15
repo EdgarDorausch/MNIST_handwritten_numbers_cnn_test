@@ -14,6 +14,7 @@ epochs = 12
 img_rows, img_cols = 28, 28
 
 # the data, split between train and test sets
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 if K.image_data_format() == 'channels_first':
     x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)

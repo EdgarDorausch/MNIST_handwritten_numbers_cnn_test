@@ -101,6 +101,7 @@ celerybeat-schedule
 .venv
 env/
 venv/
+venv_gpu/
 ENV/
 env.bak/
 venv.bak/

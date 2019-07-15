@@ -48,7 +48,7 @@ img_height = 28
 img_width = 28
 scaling = 4
 
-font = ImageFont.truetype("/home/edgar/.fonts/f/FiraSans_Regular.ttf", 30)
+font = ImageFont.truetype("./Ubuntu-Regular.ttf", 30)
 
 img_big = Image.new("RGB", (img_width * n * scaling, img_height * scaling))
 for i in range(n):
